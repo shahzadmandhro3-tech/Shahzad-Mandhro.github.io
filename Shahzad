@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shahzad Control Center</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#0b1020;color:#f5f7ff;
+font-family:Arial,sans-serif;padding:20px}
+header{padding:22px 0}
+h1{font-size:27px;margin:0 0 8px}
+p{color:#aab5d0;line-height:1.6}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(145px,1fr));gap:14px}
+.card{background:#151e33;border:1px solid #2a3855;
+border-radius:16px;padding:18px;min-height:130px}
+.icon{font-size:26px}
+h3{margin-bottom:8px}
+button{background:#4c78ff;color:white;border:0;
+border-radius:10px;padding:12px;width:100%;font-size:15px}
+.status{color:#ffd479;font-size:13px}
+footer{margin-top:25px;color:#8491ad;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+<p>SHAHZAD MANDHRO / PERSONAL SYSTEM</p>
+<h1>Shahzad Control Center</h1>
+<p>Welcome, Shahzad! Apne personal system ka dashboard.</p>
+</header>
+
+<div class="grid">
+<div class="card">
+<div class="icon">📱</div>
+<h3>Phone Status</h3>
+<p>Phone abhi connect nahi hai.</p>
+<span class="status">Not connected</span>
+</div>
+
+<div class="card">
+<div class="icon">🔋</div>
+<h3>Battery</h3>
+<p>Battery status app connection ke baad milega.</p>
+</div>
+
+<div class="card">
+<div class="icon">📁</div>
+<h3>My Files</h3>
+<p>Apni files ke liye future module.</p>
+</div>
+
+<div class="card">
+<div class="icon">🌐</div>
+<h3>My Website</h3>
+<p>Apni website aur settings manage karein.</p>
+<button onclick="alert('Website module abhi tayyar karna hai.')">Open</button>
+</div>
+
+<div class="card">
+<div class="icon">🔐</div>
+<h3>Security</h3>
+<p>Secure login aur permissions agle marhale mein.</p>
+</div>
+
+<div class="card">
+<div class="icon">🖥️</div>
+<h3>Remote Access</h3>
+<p>Phone connection abhi configure nahi hua.</p>
+<span class="status">Setup pending</span>
+</div>
+</div>
+
+<footer>
+<p>Shahzad Control Center • Version 1.0</p>
+<p>Yeh dashboard abhi interface hai; phone control aur login abhi configure nahi hue.</p>
+</footer>
+</body>
+</html>
